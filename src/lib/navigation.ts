@@ -8,6 +8,7 @@ export const noteHrefPrefix = "/notes/note?id=";
 export const headerNavLinks: SiteLink[] = [
   { href: "/", label: "Home" },
   { href: "/counter", label: "Counter" },
+  { href: "/users", label: "User" },
   { href: "/privacy-policy", label: "Privacy Policy" },
 ];
 
