@@ -21,6 +21,10 @@ describe(UsersPage, () => {
     expect(
       within(table).getByRole("row", { name: "Taylor taylor@gmail.com" }),
     ).toBeInTheDocument();
+    expect(
+      within(table).getByRole("row", { name: "Taylor taylor@gmail.com" }),
+    ).toBeInTheDocument();
+
     expect(screen.getByText("3")).toBeInTheDocument();
     expect(nameInput).toHaveValue("");
     expect(emailInput).toHaveValue("");
